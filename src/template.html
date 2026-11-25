@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="./laughing-emoji.svg"
+			type="image/svg+xml"
+		/>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Englebert&family=Playpen+Sans:wght@100..800&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title><%= htmlWebpackPlugin.options.title %></title>
+	</head>
+	<body>
+		<div class="container">
+			<div>
+				<img id="laughImg" alt="" />
+				<h3 class="englebert-regular">Don't Laugh Challenge</h3>
+			</div>
+
+			<div class="joke" id="joke"></div>
+			<button id="jokeBtn" class="playpen-sans-600">
+				Get Another One
+			</button>
+		</div>
+	</body>
+</html>

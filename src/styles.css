@@ -1,0 +1,81 @@
+body {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: lightskyblue;
+}
+
+img {
+	width: 100px;
+}
+
+.container {
+	height: min(500px, fit-content);
+	width: min(400px, 80%);
+	margin: auto;
+	padding: 20px;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 2px 2px 5px 2px rgb(12, 163, 233);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.container > div:first-child {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h3 {
+	padding: 2px;
+	margin: 10px 2px;
+	color: cadetblue;
+}
+
+button {
+	width: max(200px, 50%);
+	padding: 8px;
+	margin-bottom: 40px;
+	font-weight: 600;
+	font-size: 1.1rem;
+	background-color: cornflowerblue;
+	color: whitesmoke;
+	border-radius: 10px;
+}
+
+/* Heading Font */
+.englebert-regular {
+	font-family: "Englebert", cursive;
+	font-weight: 600;
+	font-size: 2.2rem;
+	font-style: normal;
+}
+
+/* Joke Font */
+
+.playpen-sans,
+.joke {
+	font-family: "Playpen Sans", cursive;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+.joke {
+	text-align: center;
+	font-size: 1.6rem;
+}
+
+.playpen-sans-600 {
+	font-family: "Playpen Sans", cursive;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+}
